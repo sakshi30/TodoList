@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel = "stylesheet" href = "style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <div class="w3-container w3-card">
+    <h1 class="w3-container w3-center">Todo List</h1>
+    <div class="w3-container w3-center ">
+      <input type="text"  id="x_value"  placeholder = "What needs to be done today?" /><br/><br/>
+      <button id="a" class="w3-red w3-bar-item w3-button" onclick = "todoList.addTodoList()">Add Todo</button>
+    </div>
+    <br/>
+     <ul class="w3-ul w3-card w3-hoverable">
+  
+    </ul>
+    <br/>
+    
+    
+    <div class="w3-container w3-center">
+      <input type="number" id="toggle_id" placeholder="Position of the item"/> <br/><br/>
+      <button id="a" class="w3-red w3-bar-item w3-button" onclick="todoList.toggleCompleted()">Toggle Todo</button>
+      
+    </div>
+    <br/>
+    <div class="w3-container w3-center">
+      <button id="a" class="w3-red w3-bar-item w3-button" onclick="todoList.toggleAll()">Toggle Todos</button>
+    </div>
+    <br/>
+   
+  
+    <script src="script.js"></script>
+  </div>
+</body>
+
+</html>

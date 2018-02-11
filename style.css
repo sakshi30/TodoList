@@ -1,0 +1,25 @@
+/* Styles go here */
+
+h1{
+  color: Red;
+  font-size:64px;
+  text-shadow:3px 3px 0 #444;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+input{
+  width : 90%;
+}
+#a{
+  width : 40%;
+}
+.deleteButton{
+  color:red;
+  position: absolute;
+  right: 25px;
+}
+
+.inputType{
+  color:red;
+  position: absolute;
+  right: 60px;
+}
